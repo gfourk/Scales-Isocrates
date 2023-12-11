@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Scales &amp; Isocrates</string>
+    <string name="ok">ΟΚ</string>
+    <string name="cancel">ΑΚΥΡΟ</string>
+    <string name="save">ΑΠΟΘΗΚΕΥΣΗ</string>
+    <string name="reset">ΕΠΑΝΑΦΟΡΑ</string>
+</resources>

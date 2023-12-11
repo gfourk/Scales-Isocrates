@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinnerCategories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <Spinner
+            android:id="@+id/spinnerVoices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ΒΑΣΗ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:focusable="false"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            tools:ignore="LabelFor" />
+
+        <Button
+            android:id="@+id/ΣΤΑ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ΣΤΑ"
+            tools:ignore="ButtonStyle,HardcodedText" />
+
+        <Spinner
+            android:id="@+id/ΓΕΝΟΣ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/kat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ΚΑΤ"
+                    tools:ignore="ButtonStyle,HardcodedText" />
+
+                <EditText
+                    android:id="@+id/moria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    tools:ignore="LabelFor" />
+
+                <Button
+                    android:id="@+id/ane"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ΑΝΕ"
+                    tools:ignore="ButtonStyle,HardcodedText" />
+
+            </LinearLayout>
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/ΠΑ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ΠΑ"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/ΖΩ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ΖΩ"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/ΑΔΙ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ΔΙ'"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/ΝΗ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ΝΗ"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/ΚΕ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ΚΕ"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/ΑΓΑ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ΓΑ'"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/ΚΖΩ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="'ΖΩ"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/ΔΙ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ΔΙ"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/ΑΒΟΥ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ΒΟΥ'"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/ΚΚΕ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="'ΚΕ"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/ΓΑ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ΓΑ"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/ΑΠΑ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ΠΑ'"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/ΚΔΙ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="'ΔΙ"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/ΒΟΥ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ΒΟΥ"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/ΑΝΗ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ΝΗ'"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ΜΕΙ"
+                    tools:ignore="ButtonStyle,HardcodedText" />
+
+                <EditText
+                    android:id="@+id/volume"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:inputType="number"
+                    tools:ignore="LabelFor" />
+
+                <Button
+                    android:id="@+id/syn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ΑΥΞ"
+                    tools:ignore="ButtonStyle,HardcodedText" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ΑΠΟ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ΑΠΟ"
+                    tools:ignore="ButtonStyle,HardcodedText" />
+
+                <Button
+                    android:id="@+id/ΕΠΑ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ΕΠΑ"
+                    tools:ignore="ButtonStyle,HardcodedText" />
+
+                <Button
+                    android:id="@+id/ΑΝΑ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ΑΝΑ"
+                    tools:ignore="ButtonStyle,HardcodedText" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/klimaka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:focusable="false"
+                android:gravity="center"
+                android:inputType="number"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/zwnh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:gravity="center"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/kezw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:gravity="center"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/dike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:gravity="center"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/gadi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:gravity="center"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/bouga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:gravity="center"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/pabou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:gravity="center"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/nhpa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:gravity="center"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                tools:ignore="LabelFor" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

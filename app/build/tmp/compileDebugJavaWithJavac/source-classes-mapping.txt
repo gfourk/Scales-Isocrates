@@ -1,0 +1,24 @@
+com/example/scalesisocrates/MainActivity.java
+ com.example.scalesisocrates.MainActivity
+ com.example.scalesisocrates.MainActivity$1
+ com.example.scalesisocrates.MainActivity$2
+ com.example.scalesisocrates.MainActivity$3
+ com.example.scalesisocrates.MainActivity$4
+ com.example.scalesisocrates.MainActivity$5
+com/example/scalesisocrates/StringConstants.java
+ com.example.scalesisocrates.StringConstants
+ com.example.scalesisocrates.StringConstants$Andrikes
+ com.example.scalesisocrates.StringConstants$Genoi
+ com.example.scalesisocrates.StringConstants$Gynaikeies
+ com.example.scalesisocrates.StringConstants$Paidikes
+ com.example.scalesisocrates.StringConstants$Voices
+com/example/scalesisocrates/BuildConfig.java
+ com.example.scalesisocrates.BuildConfig
+com/example/scalesisocrates/CategoriesAdapter.java
+ com.example.scalesisocrates.CategoriesAdapter
+com/example/scalesisocrates/VoicesAdapter.java
+ com.example.scalesisocrates.VoicesAdapter
+com/example/scalesisocrates/TriangularWave.java
+ com.example.scalesisocrates.TriangularWave
+ com.example.scalesisocrates.TriangularWave$1
+ com.example.scalesisocrates.TriangularWave$2
